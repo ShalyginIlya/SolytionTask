@@ -8,11 +8,11 @@ if(inputLine1 != null && inputLine2 != null)
 
     if(inputNumber1 > inputNumber2)
     {
-        Console.WriteLine("inputNumber1");
+        Console.WriteLine(inputNumber1);
     }
     else
     {
-        Console.WriteLine("inputNumber2");
+        Console.WriteLine(inputNumber2);
     }
 
 }
