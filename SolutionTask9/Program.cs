@@ -27,10 +27,11 @@ else
 //     Console.WriteLine(stringNum[0]);
 // } else {
 //     Console.WriteLine(stringNum[1]);
-// }
+//}
 
 // if (number%10 > number/10){
 //     Console.WriteLine(number%10);
 // } else {
 //     Console.WriteLine(number/10);
 // }
+
