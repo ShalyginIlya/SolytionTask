@@ -1,14 +1,10 @@
 ﻿// Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
-string? inputLine = Console.ReadLine();
+string? inputLine = Console.ReadLine();     //Считываем строковую переменную
 
-char[] array = inputLine.ToCharArray();
+char[] array = inputLine.ToCharArray();     //Создаем массив array
 
-if (array.Length >= 3)
-    Console.WriteLine(array[2]);
-else
-    Console.WriteLine("Третьей цифры нет");
-
-
-
-
+if (array.Length >= 3)                      // если длина массива >= 3, то
+    Console.WriteLine(array[2]);            // выводим на консоль число под индексом 2
+else                                        // если длина массива меньше 3, то
+    Console.WriteLine("Третьей цифры нет"); //Выодим на консоль сообщение
