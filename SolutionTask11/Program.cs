@@ -24,18 +24,18 @@ if (inputLkneOne != null && inputLkneTwo != null)
 }
 
 // Вариант 2
-Console.Write("Enter first number: ");
-string? firstLine = Console.ReadLine();
-Console.Write("Enter second number: ");
-string? secondLine = Console.ReadLine();
-int first = int.Parse(firstLine);
-int second = int.Parse(secondLine);
+// Console.Write("Enter first number: ");
+// string? firstLine = Console.ReadLine();
+// Console.Write("Enter second number: ");
+// string? secondLine = Console.ReadLine();
+// int first = int.Parse(firstLine);
+// int second = int.Parse(secondLine);
 
-if (second%first == 0)
-{
-    Console.WriteLine("Кратное");
-}
-else
-{
-    Console.WriteLine("Не кратное, " + second%first);
-}
+// if (second%first == 0)
+// {
+//     Console.WriteLine("Кратное");
+// }
+// else
+// {
+//     Console.WriteLine("Не кратное, " + second%first);
+// }
