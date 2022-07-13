@@ -1,4 +1,6 @@
-﻿string? inputLkneOne = Console.ReadLine();
+﻿//Напишите программу, которая принимает на вход два числа и проверяет, является ли одно число квадратом другого
+
+string? inputLkneOne = Console.ReadLine();
 string? inputLkneTwo = Console.ReadLine();
 if(inputLkneOne != null && inputLkneTwo != null ){
     int inputNumberOne = Math.Abs(int.Parse(inputLkneOne));
