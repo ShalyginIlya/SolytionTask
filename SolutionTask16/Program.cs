@@ -1,19 +1,19 @@
 ﻿// Напишите программу, которая принимает на вход цифру, обозначающую день недели,и проверяет, 
 //является ли этот день выходным.
 
-string? inputLine = Console.ReadLine();
+string? inputLine = Console.ReadLine(); //Считываем строковую переменную
 
-if (inputLine != null)
+if (inputLine != null)  // проверяем переменную на null
 {
-    int inputNumber = int.Parse(inputLine);
+    int inputNumber = int.Parse(inputLine);  //Превращаем строковую переменную в целочисленную
 
-    if ((inputNumber == 6)||(inputNumber == 7))
+    if ((inputNumber == 6)||(inputNumber == 7))  // если переменная равна 6 или 7, то
     {
-        Console.WriteLine("Выходной");
+        Console.WriteLine("Выходной"); // Выводим на консоль сообщение
     }
-    else
+    else  // если переменная не равна 6 или 7, то
     {
-        Console.WriteLine("Рабочий день");
+        Console.WriteLine("Рабочий день");  // Выводим на консоль сообщение
     }
 }
 
