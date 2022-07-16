@@ -1,22 +1,22 @@
 ﻿// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.1
 
 
-string? inputLineN = Console.ReadLine();
+string? inputLineN = Console.ReadLine(); //Считываем строковую переменную
 
-if (inputLineN != null)
+if (inputLineN != null) // проверяем переменную на null
 {
-    int NumberN = int.Parse(inputLineN);
+    int NumberN = int.Parse(inputLineN); //Превращаем строковую переменную в целочисленную
 
-    string lineN = "";
-    string lineNNN = string.Empty; // = "";
-    int s = 1;
-    while (s <= NumberN)
+    string lineN = "";  // объявляем переменную
+    string lineNNN = string.Empty; // = ""; объявляем переменную
+    int s = 1; // объявляем переменную
+    while (s <= NumberN) // пока переменная s меньше или равна переменной NumberN, выполняем след.действие:
     {
-        lineN = lineN + s+ " ";
-        lineNNN = lineNNN + (s * s * s).ToString() + " ";
-        s++;
+        lineN = lineN + s+ " "; //Наккопитель переменной  lineN
+        lineNNN = lineNNN + (s * s * s).ToString() + " "; //Наккопитель переменной  lineNNN
+        s++; //прибавили к переменной s единицу
     }
-
-    Console.WriteLine(lineN);
-    Console.WriteLine(lineNNN);
+// Когда переменная s станет больше переменной NumberN, выполняем след. действие:
+    Console.WriteLine(lineN);  //Выводим на консоль строку с переменной N
+    Console.WriteLine(lineNNN);//Выводим на консоль строку с переменной NNN
 }
